@@ -1,0 +1,14 @@
+<xml version "1.0">
+<!ELEMENT forum (date, categories)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT categories (categorie+)>
+<!ELEMENT categorie (nom, postes)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT postes (poste+)>
+<!ELEMENT poste (titre, nb_pages, texte_poste, commentaires?)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT nb_pages (#PCDATA)>
+<!ELEMENT texte_poste (#PCDATA)>
+<!ELEMENT commentaires (commentaire+)>
+<!ELEMENT commentaire (#PCDATA)>
+

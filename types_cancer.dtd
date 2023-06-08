@@ -1,0 +1,12 @@
+<xml version "1.0">
+<!ELEMENT informations (date, types_de_cancer)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT types_de_cancer (type_de_cancer+)>
+<!ELEMENT type_de_cancer (type, texte_principal, articles)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT texte_principal (#PCDATA)>
+<!ELEMENT articles (article*)>
+<!ELEMENT article (titre, texte)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT texte (#PCDATA)>
+
